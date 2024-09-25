@@ -9,18 +9,27 @@ var reduce = function(nums, fn, init) {
 /* Example Usage 
 
 Example 1
-const functions = [x => x + 1, x => x * x, x => 2 * x];
-const composedFn = compose(functions);
-console.log(composedFn(4)); // Output: 65
+const nums = [1, 2, 3, 4];
+const sum = function(accum, curr) { return accum + curr; };
+const init = 0;
+
+const finalResult = reduce(nums, sum, init);
+console.log(finalResult); // Output: 10
 
 Example 2
-const functions = [x => 10 * x, x => 10 * x, x => 10 * x];
-const composedFn = compose(functions);
-console.log(composedFn(1)); // Output: 1000
+const nums = [1, 2, 3, 4];
+const sumOfSquares = function(accum, curr) { return accum + curr * curr; };
+const init = 100;
+
+const finalResult = reduce(nums, sumOfSquares, init);
+console.log(finalResult); // Output: 130
 
 Example 3
-const functions = [];
-const composedFn = compose(functions);
-console.log(composedFn(42)); // Output: 42
+const nums = [];
+const sum = function(accum, curr) { return 0; };
+const init = 25;
+
+const finalResult = reduce(nums, sum, init);
+console.log(finalResult); // Output: 25
 
 */

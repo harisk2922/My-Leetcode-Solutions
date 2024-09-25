@@ -14,3 +14,4 @@ var middleNode = function(head) {
     }
     return current;
 };
+

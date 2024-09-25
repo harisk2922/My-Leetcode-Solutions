@@ -28,4 +28,5 @@ const constant = function() { return 42; };
 
 const newArray = map(arr, constant);
 console.log(newArray); // Output: [42, 42, 42]
+
 */
