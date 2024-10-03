@@ -16,3 +16,4 @@ var findNumbers = function(nums) {
 
 var nums = [5820,317,640,957,7182,764];
 console.log(findNumbers(nums));
+
