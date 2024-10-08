@@ -17,3 +17,4 @@ console.log(thirdMax(nums));
 nums = [2, 2, 3, 1];
 console.log(thirdMax(nums));
 
+
