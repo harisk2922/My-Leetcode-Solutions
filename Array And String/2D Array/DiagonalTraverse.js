@@ -38,10 +38,10 @@ function findDiagonalOrder(mat) {
     return result;
 }
 
-let mat = [
+let matrix = [
             [1,2,3],
             [4,5,6],
             [7,8,9]
         ];
 
-console.log(findDiagonalOrder(mat));
+console.log(findDiagonalOrder(matrix));
