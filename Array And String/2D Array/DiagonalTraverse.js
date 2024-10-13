@@ -34,7 +34,7 @@ function findDiagonalOrder(mat) {
             }
         }
     }
-
+  
     return result;
 }
 
