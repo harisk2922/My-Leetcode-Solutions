@@ -18,3 +18,4 @@ var generate = function(numRows) {
 };  
 
 console.log(generate(5));
+
